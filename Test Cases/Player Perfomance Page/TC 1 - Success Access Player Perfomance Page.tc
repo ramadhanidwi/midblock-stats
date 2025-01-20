@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1 - Success Access Player Perfomance Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6070a4f0-782c-43fc-b9cb-ea0077f54d3c</testCaseGuid>
+</TestCaseEntity>
