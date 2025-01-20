@@ -22,7 +22,7 @@
       <guid>c0bb679d-b9d0-472d-8fe3-53a9425453bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Team Perfomance Page/TC 2 - Verifyu Element in Team Perfomance Page</testCaseId>
+      <testCaseId>Test Cases/Team Perfomance Page/TC 2 - Verify Element in Team Perfomance Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
