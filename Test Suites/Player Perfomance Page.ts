@@ -25,4 +25,11 @@
       <testCaseId>Test Cases/Player Perfomance Page/TC 2 - Verify Element in Player Perfomance Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6a8ea908-6744-4094-a95e-2d5b7dcddb89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Player Perfomance Page/TC 3 - League Coverage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
