@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[contains(@class,'px-10 py-2 text-white border-[1px] border-white bg-primary rounded-full')][normalize-space()='Sign Up'])[2]</value>
+         <value>//*[@id=&quot;__next&quot;]/div[2]/header/nav/div[1]/div[3]/div/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

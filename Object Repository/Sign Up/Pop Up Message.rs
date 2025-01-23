@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Sign In Button</name>
+   <description>Coming Soon Message</description>
+   <name>Pop Up Message</name>
    <tag></tag>
-   <elementGuidId>38759a94-4449-4817-b3e0-8fa03b0ee523</elementGuidId>
+   <elementGuidId>c67a67fe-9fa0-42a1-bc08-dc389c80abe3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;__next&quot;]/div[2]/header/nav/div[1]/div[3]/div/a/div/button</value>
+         <value>//*[@id=&quot;__next&quot;]/div[2]/header/nav/div[1]/div[3]/div/a/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
