@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://midblockstats.com/')
+WebUI.callTestCase(findTestCase('General/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Home Page/Player Perfomance Section/Player Pefomance Text'), 3)
 
@@ -31,5 +27,5 @@ WebUI.click(findTestObject('Home Page/Player Perfomance Section/See More Player 
 
 WebUI.verifyElementVisible(findTestObject('Player Perfomance/Dashboard Text'))
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('General/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

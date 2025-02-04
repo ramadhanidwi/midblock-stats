@@ -21,3 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl('https://midblockstats.com/')
+

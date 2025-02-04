@@ -17,29 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('General/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Player Perfomance/Player Perfomance Button Page'), 3)
-
-WebUI.click(findTestObject('Player Perfomance/Player Perfomance Button Page'))
-
-WebUI.waitForElementVisible(findTestObject('Player Perfomance/Dashboard Text'), 3)
-
-WebUI.click(findTestObject('Player Perfomance/View More Button Dashboard'))
-
-WebUI.verifyElementVisible(findTestObject('Player Perfomance/Dashboard Capabilities Text'))
-
-WebUI.verifyElementVisible(findTestObject('Player Perfomance/Advanced Categorical Text'))
-
-WebUI.verifyElementVisible(findTestObject('Player Perfomance/Box Stats Text'))
-
-WebUI.verifyElementVisible(findTestObject('Player Perfomance/Advanced Time Text'))
-
-WebUI.verifyElementVisible(findTestObject('Player Perfomance/Mid Block Text'))
-
-WebUI.verifyElementVisible(findTestObject('Player Perfomance/Track Player Text'))
-
-WebUI.verifyElementVisible(findTestObject('Player Perfomance/H2H Feature Text'))
-
-WebUI.callTestCase(findTestCase('General/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-

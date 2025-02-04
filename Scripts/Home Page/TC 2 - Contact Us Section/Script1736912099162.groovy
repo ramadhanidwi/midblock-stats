@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://midblockstats.com/')
+WebUI.callTestCase(findTestCase('General/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementClickable(findTestObject('Home Page/Contact Us Section/Contact Us Button'))
 
@@ -32,4 +28,6 @@ WebUI.waitForElementVisible(findTestObject('Home Page/Contact Us Section/Form Em
 WebUI.verifyElementClickable(findTestObject('Home Page/Contact Us Section/Send Email Contact Button'))
 
 WebUI.closeBrowser()
+
+WebUI.callTestCase(findTestCase('General/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
